@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://cdn-icons-png.freepik.com/256/14570/14570604.png?ga=GA1.1.859484745.1727363618&semt=ais_hybrid" type="image/x-icon">
+</head>
+<body>
+    
+    
+    <div class="calculator">
+        <input type="text" class="cal-output" disabled>
+        <div class="operators">
+        <button class="btn">AC</button>
+        <button class="btn" onclick="clearDisplay()">DE</button>
+        <button class="btn"onclick="press('%')">%</button>
+        <button class="btn"onclick="press('/')">&#247;</button>
+        <button class="btn"onclick="press('7')">7</button>
+        <button class="btn"onclick="press('8')">8</button>
+        <button class="btn"onclick="press('9')">9</button>
+        <button class="btn"onclick="press('*')">x</button>
+        <button class="btn"onclick="press('4')">4</button>
+        <button class="btn"onclick="press('5')">5</button>
+        <button class="btn"onclick="press('6')">6</button>
+        <button class="btn"onclick="press('-')">-</button>
+        <button class="btn"onclick="press('1')">1</button>
+        <button class="btn"onclick="press('2')">2</button>
+        <button class="btn"onclick="press('3')">3</button>
+        <button class="btn"onclick="press('+')">+</button>
+        <button class="btn"onclick="press('.')">.</button>
+        <button class="btn"onclick="press('0')">0</button>
+        <button style="box-shadow: none; background-color: chocolate; font-weight: bold;" class="btn"onclick="press('=')">=</button>
+
+        </div>
+    </div>
+
+            
+    <script src="app.js"></script>
+</body>
+</html>
